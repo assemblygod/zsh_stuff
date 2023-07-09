@@ -1,0 +1,22 @@
+# programs
+alias e="nvim"
+alias ls="ls --color=auto --group-directories-first"
+alias ll="ls -lAh"
+alias df="df -h"
+alias sxiv="sxiv -b"
+alias hotspot="nmcli connection up Hotspot"
+alias gotop="~/.local/repos/gotop/gotop"
+alias s="setsid -f "
+alias wifi="cd /etc/NetworkManger/system-connections && ll"
+alias wired="nmcli connection up Wired\ connection\ 1"
+alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3"
+alias buds="bluetoothctl connect 28:3D:C2:35:17:AF"
+
+# directories
+alias sc="cd $HOME/.local/scripts && ll"
+alias scs="cd $HOME/.local/bin && ll"
+alias src="cd $HOME/catkin_ws/src && ll"
+alias repos="cd $HOME/.local/repos && ll"
+
+alias sdkwm="cd $HOME/.local/src/dkwm && ll"
+alias sdwm="cd $HOME/.local/src/suckless/dwm && ll"
